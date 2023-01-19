@@ -13,7 +13,29 @@ body {
 .container {
     margin-left: 10vh;
     margin-right: 10vh;
-    border: 1px black solid;
 }
 
+.konten {
+    border: 1px solid black;
+    padding: 10px;
+}
 
+.skill {
+    text-align: left;
+    padding: 10px;
+}
+
+.isi {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+.keterampilan {
+    padding: 10px;
+}
+
+.tentang {
+    border: 1px solid black;
+    padding: 10px;
+}
