@@ -38,7 +38,7 @@
                 </div>
     
                 <h4>Skill-skill yang sudah saya pelajari masih materi dasar</h4>
-                <h4>Tapi saya sudah mengetrti bagaimana bahasa pemrogarman bekerja</h4>
+                <h4>Tapi saya sudah mengerti bagaimana bahasa pemrogarman bekerja</h4>
     
             </div>
             <div class="isi">
@@ -60,7 +60,9 @@
             </div>
             <div class="tentang">
                 <h3>Tentang Saya</h3>
-                <h4>Nama saya adalah Rizky Rasya Maheswara, saya adalah pelajar SMK. Saya memilih jalur pemrograman karena saya suka dengan hal itu. Saya ingin mempunyai cita cita menjadi sorang Web Developer. Karena saya rasa menjadi Web Developer adalah hal yang seru.</h4>
+                <div class="isitentang">
+                    <h4>Nama saya adalah Rizky Rasya Maheswara, saya adalah pelajar SMK. Saya memilih jalur pemrograman karena saya suka dengan hal itu. Saya ingin mempunyai cita cita menjadi sorang Web Developer. Karena saya rasa menjadi Web Developer adalah hal yang seru.</h4>
+                </div>
             </div>
         </div>
         

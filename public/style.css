@@ -39,3 +39,11 @@ body {
     border: 1px solid black;
     padding: 10px;
 }
+
+th {
+    padding: 4px;
+}
+
+.isitentang {
+    width: 75%;
+}
