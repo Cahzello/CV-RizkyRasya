@@ -23,8 +23,8 @@ Route::get('profile', function () {
 
 Route::get('/siswa', function () {
     return view('smkbpi.siswarpl', [
-        "siswa01" => "Rizky rasya",
         "siswa02" => "Kasumi Toyama",
+        "siswa01" => "Rizky rasya",
         "siswa03" => "Arisa Ichigaya",
         "siswa04" => "Tae Hanazono",
         "siswa05" => "Rimi Ushigome",
@@ -33,5 +33,7 @@ Route::get('/siswa', function () {
 });
 
 Route::get('/siswarpl', function () {
-    return view('smkbpi.siswarpl')->with('siswa07', 'Yukina Minato');
+    $arrSiswa = ["Mie Ayam", "Ayam Bakar"];
+
+    return view('smkbpi.siswarpl')->with('siswa', $arrSiswa);
 });
