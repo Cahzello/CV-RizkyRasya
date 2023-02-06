@@ -37,3 +37,10 @@ Route::get('/siswarpl', function () {
 
     return view('smkbpi.siswarpl')->with('siswa', $arrSiswa);
 });
+
+Route::get('/nilaisiswa', function () {
+    $nama = 'Rizky Rasya';
+    $nilai = 100;
+    return view('smkbpi.nilaisiswa',compact('nama', 'nilai'));
+});
+
